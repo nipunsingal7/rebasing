@@ -142,3 +142,33 @@ fout.close();
 
 
 //END OF BOOKING FUNCTION
+
+
+//START OF MAIN PROGARM
+
+
+int main()
+{
+
+hotel h;
+
+  system("cls");
+
+cout<<"\n\t\t\t****************************";
+cout<<"\n\t\t\t* HOTEL MANAGEMENT PROJECT *";
+cout<<"\n\t\t\t****************************";
+cout<<"\n\n\t\tDeveloped By:";
+cout<<"\t Nipun Singal";
+cout<<"\t\t\t\t\n B.Tech-C.S-DevOps";
+cout<<"\t\t\t\t\n R171218069";
+cout<<"\t\t\t\t\n 500069052";
+cout<<"\n\n\n\n\n\n\n\t\t\t\t\tPress any key to continue....!!";
+
+getch();
+
+h.main_menu();
+return 0;
+}
+
+//END OF MAIN PROGRAM
+
