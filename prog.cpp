@@ -170,6 +170,7 @@ h.main_menu();
 return 0
 }
 
+<<<<<<< HEAD
 //FUNCTION FOR DISPLAYING A PURTICULAR CUSTOMER`S RECORD
 
 
@@ -285,3 +286,5 @@ cout<<"\n Press any key to continue....!!!";
 
 getch();
 }
+=======
+>>>>>>> fab240ba9882b4e8c6b8bebe7940267e2c424ea9
