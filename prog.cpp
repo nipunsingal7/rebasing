@@ -170,5 +170,3 @@ h.main_menu();
 return 0;
 }
 
-//END OF MAIN PROGRAM
-
