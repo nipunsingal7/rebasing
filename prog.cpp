@@ -167,10 +167,8 @@ cout<<"\n\n\n\n\n\n\n\t\t\t\t\tPress any key to continue....!!";
 getch();
 
 h.main_menu();
-return 0;
+return 0
 }
-
-//END OF MAIN PROGRAM
 
 //FUNCTION FOR DISPLAYING A PURTICULAR CUSTOMER`S RECORD
 
@@ -287,5 +285,3 @@ cout<<"\n Press any key to continue....!!!";
 
 getch();
 }
-
-
