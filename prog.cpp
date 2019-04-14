@@ -218,4 +218,35 @@ fin.close();
 
 //END OF DISPLAY FUNCTION
 
+//FUNCTION TO DISPLAY ALL ROOMS OCCUPIED
+
+
+void hotel::rooms()
+{
+
+  system("cls");
+
+ifstream fin("Record.dat",ios::in);
+cout<<"\n\t\t\t    List Of Rooms Allotted";
+cout<<"\n\t\t\t    ----------------------";
+cout<<"\n\n Room No.\tName\t\tAddress\t\t\t\tPhone No.\n";
+
+while(!fin.eof())
+{
+
+fin.read((char*)this,sizeof(hotel));
+cout<<"\n\n "<<room_no<<"\t\t"<<name;
+cout<<"\t\t"<<address<<"\t\t"<<phone;
+
+}
+
+cout<<"\n\n\n\t\t\tPress any key to continue.....!!";
+getch();
+fin.close();
+
+}
+
+
+//FUNCTION FOR EDITING RECORDS AND FOR BILL
+
 
